@@ -1,6 +1,6 @@
 @echo off
-set /p var=Input File Directory:
-cd "%var%"
+set /p backgroundDir=Enter backgroundDefault.jpg folder directory:
+cd "%backgroundDir%"
 reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Background" 
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Background" /f /v "OEMBackground" /t REG_DWORD /d "1"
 reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Background" 
