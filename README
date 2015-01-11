@@ -1,6 +1,9 @@
-1. A JPG under 256KB
-2. rename to backgroundDefault.jpg
-3. move to current directory
-4. run ChangeLoginBackground.exe in Administrator Mode
+Author: joe@chiang.com.tw
+CWLBG stands for Custom Windows Login Background 
+Inspired by: HowToGeek's Post http://www.howtogeek.com/112110/how-to-set-a-custom-logon-screen-background-on-windows-7/
+Requirements:
+1. A JPG file size under 256KB (remember to have the right resolution to your computer monitor)
+2. rename the JPG file to backgroundDefault.jpg
+3. run CWLBG.exe in Administrator Mode
+4. Enter backgroundDefault.jpg folder directory
 
-Author: Joe Chiang
