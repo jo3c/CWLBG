@@ -8,3 +8,6 @@ md C:\Windows\System32\oobe\info
 md C:\Windows\System32\oobe\info\backgrounds
 del "C:\Windows\System32\oobe\info\backgrounds\backgroundDefault.jpg"
 xcopy "%cd%\backgroundDefault.jpg" "C:\Windows\System32\oobe\info\backgrounds"
+
+pause
+"joe@chiang.com.tw"
